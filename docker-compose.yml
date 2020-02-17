@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  go:
+    build: go/
+    container_name: go
+    tty: true
+    volumes:
+      - ./src:/go/src
